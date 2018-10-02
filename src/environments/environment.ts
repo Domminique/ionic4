@@ -3,7 +3,10 @@
 // `ng build --env=prod` then `environment.prod.ts` will be used instead.
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 export const environment = {
-  production: false
+  production: false,
+  apiUrl: 'https://newsapi.org/v2',
+  apiKey: '5a86a1588d5c46cbaf14bfbc957e76d7',
+
 };
 
 /*
